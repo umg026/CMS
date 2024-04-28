@@ -1,8 +1,11 @@
 import React from 'react'
+import Dashboard_table from './components/Dashboard_table'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Dashboard_table/>
+    </div>
   )
 }
 
